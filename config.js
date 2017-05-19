@@ -3,9 +3,9 @@
 const _ = require('lodash');
 
 module.exports = class {
-  constructor(data) {
+  constructor(data = {}) {
 
-    this.mConfData = data || {};
+    this.mConfData = data;
 
   }
 

@@ -1,0 +1,13 @@
+{
+  "defaultAjvOptions": {
+    "v5": true,
+    "format": "full",
+    "allErrors": true
+  },
+
+  "defaults": {
+    "removeAdditional": true,
+    "useDefaults": true,
+    "coerceTypes": true
+  }
+}
