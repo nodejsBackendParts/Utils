@@ -19,7 +19,7 @@ const logger = new Logger({"logLevel": "debug"});
  
 const opts = {
   pg: pg,
-  logger: logger.createAgent('[sql]'),
+  logger: logger.createAgent('[sql]').debug,
   pgOptions: {
     
   }
